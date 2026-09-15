@@ -1,0 +1,61 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large research data and generated results
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+outputs/**
+!outputs/.gitkeep
+!outputs/README.md
+
+# Common model and array formats
+*.h5
+*.hdf5
+*.ckpt
+*.weights
+*.weights.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.nc
+*.raw
+*.tif
+*.tiff
+*.vtk
+*.vti
+*.zarr/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+*.egg-info/
+build/
+dist/

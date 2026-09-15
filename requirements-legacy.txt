@@ -1,0 +1,35 @@
+# Historical provenance only; not a validated full lockfile.
+# Historical deep-learning stack
+tensorflow==2.10.1
+tensorflow-addons==0.18.0
+keras==2.10.0
+segmentation-models-3D
+classification-models-3D
+efficientnet-3D
+
+# Numerical and tabular analysis
+numpy<1.24
+pandas<2
+scipy<1.11
+scikit-image<0.22
+scikit-learn<1.4
+
+# Porous-media and image analysis
+porespy<3
+openpnm<4
+GooseEYE
+opencv-python<5
+imageio<3
+patchify<1
+imgaug<0.5
+h5py<3.9
+netCDF4<2
+
+# Visualization and notebook tools
+matplotlib<3.8
+napari
+graphviz
+netron
+tqdm<5
+ipykernel<7
+jupyterlab<5

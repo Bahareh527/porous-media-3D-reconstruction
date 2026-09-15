@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite the thesis and the relevant associated article.
+title: Deep Learning for 3D Reconstruction of Porous Media
+type: software
+authors:
+  - family-names: Keshavarz
+    given-names: Bahareh
+version: 1.1.0
+date-released: 2026-09-13
+keywords:
+  - porous media
+  - digital rock physics
+  - three-dimensional reconstruction
+  - deep learning
+  - multimineral segmentation
+  - Vox2Vox
+  - U-Net
+  - generative adversarial network
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: Keshavarz
+      given-names: Bahareh
+  title: Improving Three-Dimensional Reconstruction of Porous Media Using Rock-Texture Image Segmentation Data with a Deep Learning Approach
+  year: 2026
+  notes: Doctoral thesis in Petroleum Engineering, Islamic Azad University, Science and Research Branch, Tehran, Iran.

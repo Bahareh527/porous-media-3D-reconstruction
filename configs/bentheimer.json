@@ -1,0 +1,18 @@
+{
+  "run_name": "bentheimer-128",
+  "synthetic": false,
+  "seed": 42,
+  "image_files": ["data/raw/bentheimer/tomoHiRes_SS_nc/block00000000.nc", "data/raw/bentheimer/tomoHiRes_SS_nc/block00000001.nc"],
+  "label_file": "data/raw/bentheimer/BHG1eff_tst_phase.nc",
+  "image_variable": "tomo",
+  "label_variable": "phase",
+  "validation_slices": 128,
+  "test_slices": 128,
+  "gap_slices": 0,
+  "patch_size": 128,
+  "stride": 64,
+  "num_classes": 4,
+  "pore_label": 0,
+  "voxel_size_m": null,
+  "label_mapping": {}
+}

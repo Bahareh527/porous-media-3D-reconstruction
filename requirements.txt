@@ -1,0 +1,2 @@
+# Maintained stack; install ".[dev]" additionally for development checks.
+-e .[learning,netcdf,notebook]

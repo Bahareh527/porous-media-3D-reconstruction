@@ -1,0 +1,12 @@
+{
+  "run_name": "synthetic-demo",
+  "synthetic": true,
+  "seed": 42,
+  "synthetic_shape": [48, 32, 32],
+  "validation_slices": 16,
+  "test_slices": 16,
+  "patch_size": 16,
+  "stride": 16,
+  "num_classes": 4,
+  "pore_label": 0
+}
